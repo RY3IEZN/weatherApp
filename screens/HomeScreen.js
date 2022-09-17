@@ -7,8 +7,6 @@ import DateTime from "../components/DateTime";
 import ForecastSection from "../components/ForecastSection";
 
 function HomeScreen(props) {
-  const API_KEY = "c81e94d5b62d2cfad31fcfceb2a069f7";
-
   const [location, setLocation] = useState();
   const [latitude, setLatitude] = useState();
   const [longitude, setLongitude] = useState();
